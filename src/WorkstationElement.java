@@ -12,6 +12,7 @@ public class WorkstationElement implements Element {
      * Ліст елементів робочої станції
      */
     private ArrayList<Element> elements = new ArrayList<>();
+	   private ArrayList<Element> elements1 = new ArrayList<>();
     /**
      * Конструктор який встановлює ціну робочої станції
      */
