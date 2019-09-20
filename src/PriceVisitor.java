@@ -20,7 +20,7 @@ public class PriceVisitor implements Visitor {
     @Override
     public void visit(CableElement cableElement) {
         System.out.println("Відвідування кабеля");
-        price += cableElement.priceCable;
+       
     }
     /**
      * Метод сумує ціну всіх серверів
