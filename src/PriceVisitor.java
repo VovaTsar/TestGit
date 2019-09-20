@@ -21,6 +21,7 @@ public class PriceVisitor implements Visitor {
     public void visit(CableElement cableElement) {
         System.out.println("Відвідування кабеля");
         price += cableElement.priceCable;
+		System.out.println(price);
     }
     /**
      * Метод сумує ціну всіх серверів
