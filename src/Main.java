@@ -9,7 +9,7 @@ public class Main {
         ArrayList<Element>goods=new ArrayList<>();
         WorkstationElement workstation = new WorkstationElement(5000);
 
-        Element cable1 = new CableElement(400);
+        Element cable1 = new CableElement(700);
         Element cable2 = new CableElement(300);
         Element cable3 = new CableElement(200);
 
